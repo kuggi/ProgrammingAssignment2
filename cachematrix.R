@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+##  this is the R file for the commitment of programming assignment 2 week3
+##  the R file contains 2 functions the makeCacheMatrix and the cacheSolve function
 
-## Write a short comment describing this function
+## makeCacheMatrix function set the value of the initial matrix, set the inverse matrix to NULL  
+## It also  define set and get function for the original matrix and the inverse matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
   ##  S variable to cach inversed matrix
